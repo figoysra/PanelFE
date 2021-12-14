@@ -1,0 +1,102 @@
+.borderInfo{
+    border-radius: 20px ;
+}
+
+.borderProfile{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.borderProfile img{
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.borderProduct{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.borderProduct img{
+    width: auto;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btnLogOut{
+    width: 100px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+.btnProduct{
+    width: 100px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+.btnEdit{
+    background-color: red !important;
+    color: white !important;
+}
+.btnDelete{
+    background-color: white !important;
+    color: red !important;
+    border: 2px solid red !important;
+}
+
+
+.addImage{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    background-color: grey;
+}
+.addImage img{
+    width: auto;
+    height: 250px;
+}
+.inputProduct{
+    font-size: 20px;
+    border: none !important;
+    outline: none !important;
+    margin-bottom: 20px;
+    font-weight: bolder !important;
+}
+.textarea{
+    resize: none;
+    border: none !important;
+}
+.btnImage{
+    display: none;
+}
+.btnGo{
+    width: auto;
+    font-size: 12px !important;
+}
+
+.profileName{
+    font-size: 30px;
+}
+.profileEmail{
+    font-size: 16px;
+}
+.profileGender{
+    font-size: 12px;
+}
+.profileTitle{
+    font-size: 20px;
+}

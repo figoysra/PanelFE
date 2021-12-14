@@ -1,0 +1,30 @@
+.bgLogin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1558481795-7f0a7c906f5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=896&q=80");
+}
+.borderLogin{
+    border: 5px solid black;
+    background-color: white;
+}
+.inputForm{
+    width: 300px;
+    margin-top: 10px;
+    height: 40px;
+}
+.btnLog{
+    width: 300px;
+    background-color: red !important;
+    color: white !important;
+}
+.btnRegis {
+    width: 300px;
+    background-color: white !important;
+    color: red !important;
+    border: 1px solid red !important;
+    font-weight: bolder !important;
+}

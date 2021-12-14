@@ -1,0 +1,68 @@
+.brand{
+    width: 10%;
+}
+.brand .brandLogo{
+    transform: rotate(-2deg);
+    background-color: red !important;
+    text-align: center;
+    padding: 2px 0px;
+    color: white !important;
+}
+
+
+.searchMenu{
+    width: 70%;
+}
+.searchMenu .searchBox{
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.searchMenu .searchBox input{
+    outline: none !important;
+    border: none !important;
+    width: 95%;
+    /* background-color: yellowgreen; */
+}
+
+
+.secondaryMenu{
+    width: 20%;
+}
+.secondaryMenu .btnLogin{
+    background-color: red !important;
+    color: white !important;
+    border-radius: 5px !important;
+    width: 100px !important;
+    font-weight: 800 !important;
+}
+.secondaryMenu .btnRegister{
+    color: red !important;
+    font-weight: bolder;
+}
+
+.secondaryMenu .borderProfile{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.secondaryMenu .borderProfile img{
+    width: auto;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.secondaryMenu .profileName{
+    font-size: 18px;
+    font-weight: 600;
+
+}

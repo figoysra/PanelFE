@@ -1,0 +1,17 @@
+.borderUpdate{
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+    object-position: center;
+    object-fit: center;
+    border-radius: 20px;
+}
+.borderUpdate img{
+    width: auto;
+    height: 800px;
+}
+.textAreaUpdate{
+    resize: none;
+    width: 100%;
+    height: 200px;
+}

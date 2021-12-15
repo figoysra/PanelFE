@@ -11,7 +11,7 @@
 
   <p align="center">
     <br />
-    <a href="bit.ly/PanelBE">Back end Repository</a>
+    <a href="https://github.com/figoysra/panelBE">Back end Repository</a>
   </p>
 </div>
 
